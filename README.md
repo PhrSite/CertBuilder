@@ -27,7 +27,9 @@ This application allows you to build certificates that include the above informa
 3. Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List (CRL) Profile, IETF, [RFC 5280](https://www.rfc-editor.org/rfc/rfc5280), May 2008.
 
 # Installation
-The InstallationPackages directory contains a self-extracting EXE file for the most recently released version of the CertBuilder application. This file can be used to install the application on Windows 10 or Windows 11 computers.
+You can download the self-extracting EXE file for the CertBuilder application from [here](https://1drv.ms/u/c/4f6607f8bc331ae0/ERped4jK2LpLtelyCRSSrkoBBd52WFEihIoAmQj3a1tbfQ?e=ZhqATG).
+
+**Note**: The self-extracting EXE installation file has not been digitally signed with a valid code signing certificate.
 
 # Dependancies
 The CertBuilder project uses the following NG9-1-1 related NuGet package.
@@ -39,7 +41,6 @@ The CertBuilder project uses the following NG9-1-1 related NuGet package.
 |--------|--------|
 | Source | Contains the Visual Studio project and source code files for the CertBuilder application |
 | CertBuilderSetup | Contains the Visual Studio project files for the project that builds a Windows MSI installation file. |
-| InstallationPackages | Contains a self-extracting EXE file for the most recently released version of the CertBuilder application. |
 
 # Building an Installation File
 The steps to build an installation file for the CertBuilder application are:
